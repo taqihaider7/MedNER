@@ -1,0 +1,45 @@
+{
+  "source_file": "data-annotations.json",
+  "ood_source_file": "151-eval.json",
+  "chunk_size": 1500,
+  "chunk_overlap": 300,
+  "negative_sample_ratio": 0.15,
+  "augmentation_enabled": true,
+  "augmentation_window_size": 800,
+  "augmentation_max_per_doc": 5,
+  "train_ratio": 0.75,
+  "val_ratio": 0.1,
+  "test_ratio": 0.15,
+  "seed": 42,
+  "spacy_model": "en_core_web_sm",
+  "bio_labels": [
+    "O",
+    "B-Dataset",
+    "I-Dataset"
+  ],
+  "splits": {
+    "train": {
+      "chunks": 5133,
+      "sentences": 49027
+    },
+    "val": {
+      "chunks": 684,
+      "sentences": 6474
+    },
+    "test": {
+      "chunks": 1028,
+      "sentences": 9748
+    },
+    "ood": {
+      "chunks": 2825,
+      "sentences": 27771
+    }
+  },
+  "ood_processing": {
+    "negative_sampling": true,
+    "augmentation": true,
+    "note": "Same pipeline as main set (neg sampling + augmentation) for consistent comparison"
+  },
+  "total_documents": 542,
+  "ood_documents": 151
+}

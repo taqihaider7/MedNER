@@ -1,0 +1,33 @@
+{
+  "entity_types": [
+    "Dataset"
+  ],
+  "entity_description": "Names of datasets, corpus, collections, databases, benchmarks, or data collections used in scientific research",
+  "bio_labels": [
+    "O",
+    "B-Dataset",
+    "I-Dataset"
+  ],
+  "hyperparameters": {
+    "c1": 0.018010946644893652,
+    "c2": 0.028829101477515037,
+    "max_iterations": 100
+  },
+  "algorithm": "lbfgs",
+  "spacy_model": "en_core_web_sm",
+  "feature_window": 2,
+  "training_data": {
+    "source": "data-annotations.json",
+    "total_documents": 542,
+    "train_chunks": 5133,
+    "val_chunks": 684,
+    "test_chunks": 1028,
+    "train_sentences": 49027,
+    "val_sentences": 6474,
+    "test_sentences": 9748,
+    "chunk_size": 1500,
+    "chunk_overlap": 300,
+    "negative_sample_ratio": 0.15,
+    "augmentation_enabled": true
+  }
+}
