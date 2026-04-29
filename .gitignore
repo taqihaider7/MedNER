@@ -1,8 +1,4 @@
 data-annotations-900-samples.json
 training.ipynb
-visualization
 data-annotations.json
 CLAUDE.md
-.ipynb_checkpoints
-scibert_crf_data_preparation.ipynb
-scibert_crf_model.ipynb
