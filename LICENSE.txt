@@ -1,0 +1,77 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The MedSETNER annotation layer (everything in the data/ directory of this
+release that constitutes original annotation, plus this documentation) is
+licensed under the Creative Commons Attribution 4.0 International License.
+
+You are free to:
+
+  Share   -- copy and redistribute the material in any medium or format.
+  Adapt   -- remix, transform, and build upon the material for any purpose,
+             even commercially.
+
+The licensor cannot revoke these freedoms as long as you follow the licence
+terms.
+
+Under the following terms:
+
+  Attribution -- You must give appropriate credit, provide a link to the
+  licence, and indicate if changes were made. You may do so in any
+  reasonable manner, but not in any way that suggests the licensor
+  endorses you or your use.
+
+  No additional restrictions -- You may not apply legal terms or
+  technological measures that legally restrict others from doing anything
+  the licence permits.
+
+Notices:
+
+  You do not have to comply with the licence for elements of the material
+  in the public domain or where your use is permitted by an applicable
+  exception or limitation.
+
+  No warranties are given. The licence may not give you all of the
+  permissions necessary for your intended use. For example, other rights
+  such as publicity, privacy, or moral rights may limit how you use the
+  material.
+
+----------------------------------------------------------------------
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+----------------------------------------------------------------------
+
+Scope of this licence
+=====================
+
+This CC BY 4.0 licence covers:
+
+  * The annotations (character-offset spans and IOB conversions of
+    "Dataset" mentions).
+  * The chunking, split assignments, and metadata in data/*.jsonl and
+    data/ood_test_labelstudio.json.
+  * The documentation files: README.md, SCHEMA.md, this LICENSE.txt.
+
+This CC BY 4.0 licence does NOT cover:
+
+  * The text of the source articles themselves, which remain under each
+    publisher's original licence (arXiv, PubMed Central OA subset, and
+    other biomedical publishers whose terms permit text-and-data mining).
+    Each annotation references its source by persistent identifier
+    (arXiv-id, PMC-id, or DOI) so users can retrieve the full article
+    from its legitimate publisher.
+  * Accompanying source code (training scripts, evaluation scripts,
+    notebooks) shipped in the companion repository -- those are released
+    under the MIT licence; see LICENSE-CODE.txt.
+
+How to attribute
+================
+
+If you use MedSETNER in research, please cite the accompanying paper
+(see README.md, section "How to cite"). A machine-readable CITATION.cff
+file will be added on de-anonymisation.
+
+A minimal attribution string is:
+
+  "MedSETNER (CC BY 4.0), v1.0.0, [authors withheld for review], 2026."
